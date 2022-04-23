@@ -56,3 +56,6 @@ print(number[1::4])
 
 separators = number[1::4]
 print(separators)
+
+values = "".join(char if char not in seperators else " " for char in number).split()
+print([int(val) for val in values])
