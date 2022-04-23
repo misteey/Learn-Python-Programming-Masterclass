@@ -47,3 +47,9 @@ print(parrot[:])
 
 print(parrot[-4:-2])  #Bl
 print(parrot[-4:12])  #Bl
+
+print(parrot[0:6:2])  #Nre
+print(parrot[0:6:3])  #Nw
+
+number = "9,223,372,036,854,775,807"
+print(number[1::4])
